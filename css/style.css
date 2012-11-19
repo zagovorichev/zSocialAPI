@@ -1,0 +1,75 @@
+.tp_facebook_butt {
+	background: url("../img/facebook.png") repeat scroll right top transparent;
+	margin-left: -3px;
+}
+
+.tp_facebook_butt:hover {
+    background: url("../img/facebook.png") repeat scroll left top transparent;
+}
+
+.tp_facebook_butt:active {
+	background: url("../img/facebook.png") repeat scroll left bottom transparent;
+}
+
+
+.tp_odnoklassniki_butt {
+    background: url("../img/odnoklassniki.png") repeat scroll left top transparent;
+    margin-left: 10px;
+}
+
+.tp_odnoklassniki_butt:hover {
+    background: url("../img/odnoklassniki.png") repeat scroll right top transparent;
+}
+
+.tp_odnoklassniki_butt:active {
+	background: url("../img/odnoklassniki.png") repeat scroll left bottom transparent;
+}
+
+
+.tp_google_butt {
+    background: url("../img/google.png") repeat scroll left top transparent;
+    margin-left: 10px;
+}
+
+.tp_google_butt:hover {
+	background: url("../img/google.png") repeat scroll right top transparent;
+}
+
+.tp_google_butt:active {
+	background: url("../img/google.png") repeat scroll left bottom transparent;
+}
+
+
+.tp_twitter_butt {
+    background: url("../img/twitter.png") repeat scroll left top transparent;
+    margin-left: 10px;
+}
+
+.tp_twitter_butt:hover {
+	background: url("../img/twitter.png") repeat scroll right top transparent;
+}
+
+.tp_twitter_butt:active {
+	background: url("../img/twitter.png") repeat scroll left bottom transparent;
+}
+
+
+.tp_vkontakte_butt {
+    background: url("../img/vkontakte.png") repeat scroll left top transparent;
+    margin-left: 10px;
+}
+
+.tp_vkontakte_butt:hover {
+	background: url("../img/vkontakte.png") repeat scroll right top transparent;
+}
+
+.tp_vkontakte_butt:active {
+	background: url("../img/vkontakte.png") repeat scroll left bottom transparent;
+}
+
+.tp_facebook_butt, .tp_twitter_butt, .tp_google_butt, .tp_vkontakte_butt, .tp_odnoklassniki_butt {
+	cursor: pointer;
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+}

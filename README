@@ -1,0 +1,14 @@
+zSocialAPI v1.0
+Library for social networks.
+
+Includes:
+    oAuth 2.0
+
+Social network:
+
+    facebook.com
+    vk.com
+    odnoklassniki.com
+
+Form for registration.
+Form for managment social binds to local account

@@ -1,6 +1,6 @@
 <?php
 /**
-*	Фабрика соц. сетей
+*	Social Factory
 *
 *	Alexander Zagovorichev <zagovorichev@gmail.com>
 */
@@ -11,7 +11,7 @@ require_once("fb.class.php");
 
 class Social{
 	
-	public function factory($sid){
+	public static function factory($sid){
 		$name = strtoupper($sid);
 		return new $name();
 	}
